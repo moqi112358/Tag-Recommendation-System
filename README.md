@@ -22,7 +22,11 @@ tags: Tags associated with the respective article. If multiple tags are associat
 
 The submission file submitted by the candidate for evaluation has to be in the given format. The submission file is in .csv format. Check sample_submission for details. Remember, incase of multiple tags for a given article, they are seperated by '|'. 
 
-![](http://latex.codecogs.com/gif.latex?\\frac{1}{1+sin(x)})
+### Evaluation Metric
+
+The predicted tags will be evaluated on the F1 score metrics. For each article, F1 score is calculated as
+
+![](http://latex.codecogs.com/gif.latex?F1 score = \frac{2*recall * precision} {recall + precision})
 
 
 ### Pipeline

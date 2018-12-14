@@ -1,0 +1,9 @@
+1. Word Embedding using Word2vec, each word is represented by a vector with (300,) dimension
+2. Create the vocabalary dictionary for article, title and label words.
+   Here article:{word: article word embedding}
+        title:{word: title word embedding}
+        label:{word: label id}
+3. Split the data into train and validation parts.
+4. Transform the raw text data to embedding data
+5. Train with TextCNN and TextRCNN model.
+6. Make prediction on test data

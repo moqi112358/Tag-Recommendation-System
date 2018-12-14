@@ -24,14 +24,11 @@ The submission file submitted by the candidate for evaluation has to be in the g
 
 ### Evaluation Metric
 
-The predicted tags will be evaluated on the F1 score metrics. For each article, F1 score is calculated as
-
-![](http://latex.codecogs.com/gif.latex?F1s = \frac{2*recall * precision} {recall + precision})
-
+The predicted tags will be evaluated on the F1 score metrics. For each article, the detail formula can be found in the challenge website.
 
 ### Pipeline
 1. Cleaned text data and padded sequences for titles and articles data respectively 
-2. Built a pre-trained Word2vec word embedding with gensim as inputs for neural networks in order to perform NLP tasks
+2. Built a pre-trained Word2vec word embedding with gensim package as inputs for neural networks in order to perform NLP tasks
 3. Implemented TextCNN model and Bidirectional LSTM model with titles and articles data as input using Pytorch
 4. Implemented model ensemble for TextCNN and Bidirectional LSTM model with equal weights
 5. Trained the model with approximately 1 million technology-related articles mapped to more than 30,000 different relevant tags and generated relevant tags from the given test set of articles

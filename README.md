@@ -1,4 +1,4 @@
-# Tag-Recommendation-System
+# HackerEarth Deep Learning Challenge: Tag-Recommendation-System
 
 https://www.hackerearth.com/challenge/competitive/deep-learning-challenge-4/leaderboard/
 
@@ -32,4 +32,8 @@ The predicted tags will be evaluated on the F1 score metrics. For each article, 
 3. Implemented TextCNN model and Bidirectional LSTM model with titles and articles data as input using Pytorch
 4. Implemented model ensemble for TextCNN and Bidirectional LSTM model with equal weights
 5. Trained the model with approximately 1 million technology-related articles mapped to more than 30,000 different relevant tags and generated relevant tags from the given test set of articles
-6. Achieved 0.6072 overall F1 score and won the fifth place in the competition
+6. Achieved 0.6072 overall F1 score and won the 5th place in the competition
+
+### Models
+
+![image](https://github.com/moqi112358/Tag-Recommendation-System/blob/master/image/model.png)

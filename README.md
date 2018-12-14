@@ -26,7 +26,7 @@ The submission file submitted by the candidate for evaluation has to be in the g
 
 The predicted tags will be evaluated on the F1 score metrics. For each article, F1 score is calculated as
 
-![](http://latex.codecogs.com/gif.latex?F1 score = \frac{2*recall * precision} {recall + precision})
+![](http://latex.codecogs.com/gif.latex?F1s = \frac{2*recall * precision} {recall + precision})
 
 
 ### Pipeline

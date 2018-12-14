@@ -22,8 +22,12 @@ tags: Tags associated with the respective article. If multiple tags are associat
 
 The submission file submitted by the candidate for evaluation has to be in the given format. The submission file is in .csv format. Check sample_submission for details. Remember, incase of multiple tags for a given article, they are seperated by '|'. 
 
-Leaderboard\ score = \frac{1}{n} \cdot \sum_{i=1}^{n}{(F1\ score)_i}
+<img src="http://latex.codecogs.com/gif.latex?\frac{\partial J}{\partial \theta_k^{(j)}}=\sum_{i:r(i,j)=1}{\big((\theta^{(j)})^Tx^{(i)}-y^{(i,j)}\big)x_k^{(i)}}+\lambda \theta_k^{(j)}" />
 
+作者：Deep Reader
+链接：https://www.zhihu.com/question/26887527/answer/43166739
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ### Pipeline
 1. Cleaned text data and padded sequences for titles and articles data respectively 
 2. Built a pre-trained Word2vec word embedding with gensim as inputs for neural networks in order to perform NLP tasks
